@@ -1,26 +1,36 @@
 import '@coreui/coreui/dist/css/coreui.min.css';
-
+// import {
+//   CDataTable, CTable, CCard, CContainer, CButton, CCardBody, CTableHead, CTableRow, CTableHeaderCell,
+//   CTableDataCell, CTableBody,
+// } from '@coreui/react';
+// import React, { useState } from 'react';
 import DataTable from 'react-data-table-component';
 import React, { memo, useEffect, useState } from 'react';
 
 
-const data = [{ id: 1, title: 'Conan the Barbarian', year: '1982', desc:'SAQ-200'},
-              { id: 2, title: 'Conan the Barbarian', year: '1982', desc:'SAQ-200'}                                                    ];
+const data = [{ ID: 1801387266, name: 'Conan the Barbarian', desc:'SAQ-200',type:'general'},
+              { ID: 1801387266, name: 'Conan the Barbarian', desc:'SAQ-200',type:'general'}                                                    ];
 const columns = [
   {
     name: 'ID',
-    selector: 'title',
+    selector: 'ID',
     sortable: true,
   },
   {
     name: 'Name',
-    selector: 'year',
+    selector: 'name',
+    sortable: true,
+  },
+
+  {
+    name: 'Desc',
+    selector: 'desc',
     sortable: true,
     right: true,
   },
   {
-    name: 'Desc',
-    selector: 'desc',
+    name: 'Type',
+    selector: 'type',
     sortable: true,
     right: true,
   },
