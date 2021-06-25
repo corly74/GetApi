@@ -1,4 +1,0 @@
-
-export const LOAD_TABLE = 'app/TABLE/LOAD_TABLE';
-export const LOAD_TABLE_SUCCESS = 'app/TABLE/LOAD_TABLE_SUCCESS';
-export const LOAD_TABLE_ERROR = 'app/TABLE/LOAD_TABLE_ERROR';
