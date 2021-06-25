@@ -3,11 +3,13 @@ Get
 在header 加入 ck 值是PK4KHAFS0PYC13YU1U
 
 ### step1
-<kbd>yarn install</kbd>
-or
+
 <kbd>npm install</kbd>
-### ste2
+
+### step2
+<kbd>yarn install</kbd>
+
+### ste3
 <kbd>yarn start</kbd>
-or
-<kbd>npm start</kbd>
+
 
